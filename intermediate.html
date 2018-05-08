@@ -6,54 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <link rel="stylesheet" href="style2.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <header>
-	<nav>
-            <div class="gridContainerNav">
-                <div class="gridItemNav">
-                    <p class="TeamName">Yummy Food</p>
-                </div>
-                <div class="gridItemNav FontSizeNav">
-                    <a href="#Home">Home</a>
-                </div>
-                <div class="gridItemNav FontSizeNav">
-                        <a href="#">Products</a>
-                </div>
-                <div class="gridItemNav FontSizeNav">
-                    <a href="#">Cart</a>
-                </div>
-  
-            </div>
-        </nav>
+	
 </header>
 <body>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Products</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cart
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <a href="#">Item 3</a>
+    </div>
+  </div> 
+</div>
+
+
 	<div class="container">
 		<div class="item">
-			<img src="img/apples.jpg" alt="apples">
+			<img id="apple" src="img/apples.jpg" alt="apples">
 		</div>
 		<div class="item">
-			<img src="img/bananas.jpg" alt="bananas">
+			<img id="banana" src="img/bananas.jpg" alt="bananas">
 		</div>
 		<div class="item">
-			<img src="img/oranges.jpg" alt="oranges">
+			<img id="orange" src="img/oranges.jpg" alt="oranges">
 		</div>
 		<div class="item">
-			<img src="img/lemons.jpg" alt="lemons">
+			<img id="lemon" src="img/lemons.jpg" alt="lemons">
 		</div>
 
 		<div class="item">
-			<img src="img/bread.jpg" alt="bread">
+			<img id="bread" src="img/bread.jpg" alt="bread">
 		</div>
 		<div class="item">
-			<img src="img/milk.jpg" alt="milk">
+			<img id="milk" src="img/milk.jpg" alt="milk">
 		</div>
 		<div class="item">
-			<img src="img/cheese.jpg" alt="cheese">
+			<img id="cheese" src="img/cheese.jpg" alt="cheese">
 		</div>
 		<div class="item">
-			<img src="img/yoghurt.jpg" alt="yoghurt">
+			<img id="yoghurt" src="img/yoghurt.jpg" alt="yoghurt">
 		</div>
+		<h2>Your products</h2>
+		<p class="cartItem1">
+		</p>
+		<p class="cartItem2">
+		</p>
+		<p class="cartItem3">
+		</p>
 	
 
 
